@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+header{
+    background: #f0dfb1;
+    background: linear-gradient(90deg,#f0dfb1 0%, #d9bd79 80%);    
+    width: 600px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 20px;
+    color: rgb(88, 73, 53);
+    font-size: 50px;
+}
+.textDiv{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.textDiv h2 {
+    margin-left: 20px;
+    color: rgba(88, 73, 53, 0.297); 
+    border: 1px dotted rgb(88, 73, 53);
+}
+
+.bigCont {
+    margin: 10px 60px;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.square {
+    border: 1px solid rgb(88, 73, 53);
+    width: 31%;
+    height: 33%;
+    margin-right: 2px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square:hover{
+    background-color: rgba(245, 220, 168, 0.404);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    width: 100px;
+    height: 21px;
+}
+
+.para{
+    font-size: 150px;
+    color: rgba(88, 73, 53); 
+}
