@@ -25,16 +25,20 @@ header h1 {
     height: 70px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.winner {
+    font-size: 100px;
 }
 
-.textDiv h2 {
-    margin-left: 20px;
-    color: rgba(88, 73, 53, 0.297); 
-    border: 1px dotted rgb(88, 73, 53);
+ h2 {
+    padding: 0px;
+    color: rgba(88, 73, 53); 
+    font-size: 30px;
 }
 
 .bigCont {
-    margin: 10px 60px;
+    margin: 40px 60px 0px 60px;
     display: flex;
     width: 500px;
     height: 500px;
@@ -55,7 +59,7 @@ header h1 {
 }
 
 .square:hover{
-    background-color: rgba(245, 220, 168, 0.404);
+    background-color: rgba(245, 221, 168, 0.146);
     cursor: pointer;
 }
 
@@ -64,8 +68,11 @@ button {
     width: 100px;
     height: 21px;
 }
+button:active{
+    background-color: rgba(245, 220, 168, 0.404);
+}
 
-.para{
+.xo{
     font-size: 150px;
     color: rgba(88, 73, 53); 
 }
