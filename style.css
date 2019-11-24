@@ -22,23 +22,24 @@ header h1 {
 }
 .textDiv{
     width: 600px;
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .winner {
-    font-size: 100px;
+    font-size: 75px;
 }
 
 h2 {
     padding: 0px;
     color: rgba(88, 73, 53); 
     font-size: 40px;
+    margin: 0px;
 }
 
 .bigCont {
-    margin: 40px 60px 0px 60px;
+    margin: 5px 60px 0px 60px;
     display: flex;
     width: 500px;
     height: 500px;
